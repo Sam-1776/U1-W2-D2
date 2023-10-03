@@ -6,9 +6,9 @@
 let num1 = 2;
 let num2 = 6;
 if (num1 > num2) {
-  console.log("num1 è maggiore di num 2");
+  console.log(num1 + " è maggiore di num 2" + num2);
 } else {
-  console.log("num2 è maggiore di num 1");
+  console.log(num2 + " è maggiore di " + num1);
 }
 
 /* ESERCIZIO 2
