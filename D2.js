@@ -94,14 +94,29 @@ if (totalShoppingCart >= promo) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let numero1 = 4;
+let numero2 = 3;
+let numero3 = 7;
+if (numero1 <= numero2 && vä12 <= numero3) {
+  console.log(numero1, numero2, numero3);
+} else if (numero2 >= numero3 && numeroi <= numero3) {
+  console.log(numero1, numero3, numero2);
+} else if (numero1 <= numero3 && numero2 <= numero1) {
+  console.log(numero2, numero1, numero3);
+} else if (numero3 >= numero2 && numeroi >= numero3) {
+  console.log(numero2, numero3, numero1);
+} else if (numero3 <= numero2 && numero2 <= numero1) {
+  console.log(numero3, numero2, numero1);
+} else {
+  console.log(numero3, numero1, numero2);
+}
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const valFornito = prompt("Inserire valore");
-if (typeof valFornito === typeof numero) {
+const valFornito = 12;
+if (typeof valFornito === "number") {
   console.log(" il valore è un numero");
 } else {
   console.log(" il valore non è un numero");
